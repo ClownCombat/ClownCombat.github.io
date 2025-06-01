@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-my-vue-app/node_modules
+resume/node_modules
 dist
 dist-ssr
 *.local
