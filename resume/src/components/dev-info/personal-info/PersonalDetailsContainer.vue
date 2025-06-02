@@ -1,5 +1,5 @@
 <template>
-  <div id="container">
+  <div id="personalDetailContainer">
     <DevInfoDetail info="Senior Software Engineer" icon="suitcase" />
     <DevInfoDetail info="Berlin, Germany" icon="house" />
     <DevInfoDetail info="11/1992" icon="cake" />
@@ -10,12 +10,11 @@
 
 <script setup>
 import DevInfoDetail from "./PersonalDetail.vue";
-import HorizontalLine from "../HorizontalLine.vue";
 
 </script>
 
 <style scoped>
-#container {
+#personalDetailContainer {
   margin: 18px 0;
 
   @media (min-device-width: 600px) and (max-device-width: 1024px) {

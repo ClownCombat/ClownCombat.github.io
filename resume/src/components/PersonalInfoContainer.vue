@@ -7,8 +7,8 @@
 
 <script setup>
 
-import DevPicture from "./personal-info/DevPicture.vue";
-import DevInfoContainer from "./personal-info/DevInfoContainer.vue";
+import DevPicture from "./dev-info/DevPicture.vue";
+import DevInfoContainer from "./dev-info/DevInfoContainer.vue";
 
 </script>
 

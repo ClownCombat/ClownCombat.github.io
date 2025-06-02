@@ -1,16 +1,11 @@
 <template>
-  <div id="container">
+  <div id="codingLangHeadlineContainer">
     <div class="svg-container">
-      <HouseSvg v-if="house"/>
-      <BirthdayCakeSvg v-if="bDayCake"/>
-      <SuitCaseSvg v-if="suitCase"/>
-      <LetterSvg v-if="letter"/>
-      <ArrowRightClosingBracketSvg v-if="arrowRight"/>
+      <CodeSvg />
     </div>
 
     <div class="text-container">
-      <span v-if="isLink"><a :href="url">{{info}}</a></span>
-      <span v-else>{{info}}</span>
+      <span>Coding Languages</span>
     </div>
 
   </div>
@@ -19,11 +14,12 @@
 <script setup>
 
 import {ref} from "vue";
-import HouseSvg from "../svgs/HouseSvg.vue";
-import LetterSvg from "../svgs/LetterSvg.vue";
-import BirthdayCakeSvg from "../svgs/BirthdayCakeSvg.vue";
-import SuitCaseSvg from "../svgs/SuitCaseSvg.vue";
-import ArrowRightClosingBracketSvg from "../svgs/ArrowRightClosingBracketSvg.vue";
+import HouseSvg from "../../svgs/HouseSvg.vue";
+import LetterSvg from "../../svgs/LetterSvg.vue";
+import BirthdayCakeSvg from "../../svgs/BirthdayCakeSvg.vue";
+import SuitCaseSvg from "../../svgs/SuitCaseSvg.vue";
+import ArrowRightClosingBracketSvg from "../../svgs/ArrowRightClosingBracketSvg.vue";
+import CodeSvg from "../../svgs/CodeSvg.vue";
 
 const props = defineProps({
   info: String,
@@ -47,18 +43,17 @@ arrowRight.value = props.icon === "arrowright"
 </script>
 
 <style scoped>
-#container {
+#codingLangHeadlineContainer {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
-  margin: 32px 0;
 }
 
 .text-container {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .svg-container {

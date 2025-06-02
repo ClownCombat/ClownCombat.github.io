@@ -1,11 +1,11 @@
 <template>
-  <div id="container">
+  <div id="codingLangHeadlineContainer">
     <div class="svg-container">
-      <CodeSvg />
+      <AsteriksSvg />
     </div>
 
     <div class="text-container">
-      <span>Coding Languages</span>
+      <span>Skills</span>
     </div>
 
   </div>
@@ -14,12 +14,7 @@
 <script setup>
 
 import {ref} from "vue";
-import HouseSvg from "../svgs/HouseSvg.vue";
-import LetterSvg from "../svgs/LetterSvg.vue";
-import BirthdayCakeSvg from "../svgs/BirthdayCakeSvg.vue";
-import SuitCaseSvg from "../svgs/SuitCaseSvg.vue";
-import ArrowRightClosingBracketSvg from "../svgs/ArrowRightClosingBracketSvg.vue";
-import CodeSvg from "../svgs/CodeSvg.vue";
+import AsteriksSvg from "../../svgs/AsteriksSvg.vue";
 
 const props = defineProps({
   info: String,
@@ -43,10 +38,10 @@ arrowRight.value = props.icon === "arrowright"
 </script>
 
 <style scoped>
-#container {
+#codingLangHeadlineContainer {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
 }
 
@@ -58,7 +53,8 @@ arrowRight.value = props.icon === "arrowright"
 
 .svg-container {
   color: #3f51b5;
-  min-width: 48px;
+  min-width: 32px;
+  line-height: 0;
 }
 
 
