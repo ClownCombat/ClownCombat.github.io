@@ -1,6 +1,6 @@
 <template>
   <div id="container">
-    <img src="/nrehbein-q-50.webp" alt="Myself" />
+    <img src="/LinkedIn_Crop_Adjusted.jpg" alt="Myself" />
     <div id="pictureText">
       <div id="devName">Norman Rehbein</div>
     </div>
@@ -22,7 +22,6 @@ defineProps({
 
 #pictureText {
   color: #000;
-  padding: .01em 16px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -34,11 +33,14 @@ defineProps({
   font-family: Segoe UI, Arial, sans-serif;
   font-weight: 400;
   margin: 10px 0;
-  padding-left: 50px;
+  padding-left: 24px;
 }
 
 img {
+  height: 524px;
   width: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 
 </style>
