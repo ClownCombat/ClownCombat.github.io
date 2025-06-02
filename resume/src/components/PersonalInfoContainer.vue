@@ -10,10 +10,6 @@
 import DevPicture from "./personal-info/DevPicture.vue";
 import DevInfoContainer from "./personal-info/DevInfoContainer.vue";
 
-defineProps({
-  msg: String,
-})
-
 </script>
 
 <style scoped>
@@ -24,10 +20,16 @@ defineProps({
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 33%;
+  width: 95%;
+
+  @media (min-device-width: 600px) and (max-device-width: 1024px) {
+    width: 33%;
+  }
+
+  @media (min-device-width: 1025px) {
+    width: 33%;
+  }
 }
 
-.test {
-  width: 100%;
-}
+
 </style>

@@ -20,7 +20,10 @@ defineProps({
   background: #535bf2;
   flex-direction: column;
   justify-content: center;
-  flex-grow: 2;
-  width: 63%;
+  width: 95%;
+
+  @media (min-device-width: 600px) and (max-device-width: 1024px) {
+    width: 63%;
+  }
 }
 </style>
