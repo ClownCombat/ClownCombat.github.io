@@ -64,6 +64,7 @@ import ProjectExpInfoContainer from "./ProjectExpInfoContainer.vue";
   color: #fff;
   margin-top: 1em;
   text-align: center;
+  padding-bottom: 12px;
   width: 100%;
 }
 
