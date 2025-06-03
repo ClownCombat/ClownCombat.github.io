@@ -10,9 +10,9 @@
 
 <script setup>
 
-import WorkExperienceHeadline from "./WorkExperienceHeadline.vue";
 import HorizontalLine from "../HorizontalLine.vue";
 import WorkExperienceSection from "./WorkExperienceSection.vue";
+import WorkExperienceHeadline from "./WorkExperienceHeadline.vue";
 import {ref} from "vue";
 
 const currentEmployerSectionOne = {

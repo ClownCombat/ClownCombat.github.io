@@ -1,5 +1,5 @@
 <template>
-  <div id="workExperienceHeadlineContainer">
+  <div id="educationHeadlineContainer">
     <div class="svg-container">
       <EducationBookSvg />
     </div>
@@ -13,7 +13,6 @@
 
 <script setup>
 
-import WorkSuitCaseSvg from "../svgs/WorkSuitCaseSvg.vue";
 import EducationBookSvg from "../svgs/EducationBookSvg.vue";
 
 defineProps({
@@ -26,11 +25,14 @@ defineProps({
 </script>
 
 <style scoped>
-#workExperienceHeadlineContainer {
+#educationHeadlineContainer {
+  color: #1a1a1a;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  padding-top: 12px;
+  padding-bottom: 28px;
 
   svg {
     font-size: 24px;
