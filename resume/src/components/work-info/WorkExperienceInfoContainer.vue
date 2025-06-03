@@ -32,7 +32,6 @@ const currentEmployerSectionTwo = {
       "SSR Frontend with NextJs and Typescript",
       "Cloud Deployment via AWS-CDK with TypeScript",
   ],
-
 }
 
 const currentEmployerWorkSection = ref({

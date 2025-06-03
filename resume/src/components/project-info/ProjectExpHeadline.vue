@@ -26,10 +26,13 @@ defineProps({
 
 <style scoped>
 #projectExpHeadlineContainer {
+  align-items: center;
+  color: #1a1a1a;
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 10px;
+  padding-top: 12px;
+  padding-bottom: 28px;
 
   svg {
     font-size: 24px;

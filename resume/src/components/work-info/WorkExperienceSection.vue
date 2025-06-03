@@ -95,7 +95,9 @@ if (props.workSection.until === "current") {
   padding-left: 20px;
 
   li {
+    align-items: center;
     color: #1a1a1a;
+    display: flex;
     font-size: 16px;
     line-height: 22px;
     padding-left: 8px;

@@ -10,7 +10,7 @@
     </div>
 
     <div v-for="section in educationSection.sections" :key="section">
-      <span class="workSectionHeadline">{{ section.headline }}</span>
+      <span class="educationSectionHeadline">{{ section.headline }}</span>
       <ul class="sectionItemList">
         <li v-for="sectionItem in section.items" :key="sectionItem">{{sectionItem}}</li>
       </ul>
@@ -88,7 +88,7 @@ if (props.educationSection.from === "") {
   font-weight: 600;
 }
 
-.workSectionHeadline {
+.educationSectionHeadline {
   color: #1a1a1a;
   font-size: 20px;
 }
@@ -100,7 +100,9 @@ if (props.educationSection.from === "") {
   padding-left: 20px;
 
   li {
+    align-items: center;
     color: #1a1a1a;
+    display: flex;
     font-size: 16px;
     line-height: 22px;
     padding-left: 8px;

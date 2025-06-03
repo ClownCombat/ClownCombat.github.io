@@ -3,7 +3,7 @@
     <SkillsInfoHeadline />
     <SkillsInfo icon="gauge" info="Agile Methods" :skills="['Scrum', 'Kanban', 'Pair Programming']" />
     <SkillsInfo icon="terminalArrow" info="IDEs" :skills="['Intellij', 'Eclipse']" />
-    <SkillsInfo icon="gear" info="Frameworks" :skills="['Spring', 'Vue / NuxtJs', 'React / NextJs']" />
+    <SkillsInfo icon="gear" info="Frameworks" :skills="['Spring', 'Vue / Nuxt', 'React / NextJs']" />
 
     <SkillsInfo icon="bugs" info="Testing" :skills="['J-Unit', 'Playwright / Cypress', 'Visual SnapShot']" />
     <SkillsInfo icon="tableColumn" info="Continous Int." :skills="['Github Workflows', 'Jenkins']" />

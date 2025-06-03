@@ -8,6 +8,6 @@
 
 <style scoped>
 svg {
-  height: 1.5em;
+  height: 1em;
 }
 </style>
