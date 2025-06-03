@@ -1,21 +1,30 @@
 <template>
-  <hr />
+  <hr :style="{ height: heightForHr + 'px' }" />
 </template>
 
 <script setup>
+
+import {ref} from "vue";
+
+const props = defineProps({
+  size: Number,
+})
+
+const height = props.size ? props.size : 2
+const heightForHr = ref(height)
+
+
 </script>
 
 <style scoped>
 hr {
-
-  color: #3f51b5;
   background-color: #3f51b5;
   box-sizing: content-box;
-  overflow: visible;
   border: 0;
   border-top: 1px solid #eee;
-  height: 2px;
+  color: #3f51b5;
   margin: 20px 0;
+  overflow: visible;
 }
 
 </style>

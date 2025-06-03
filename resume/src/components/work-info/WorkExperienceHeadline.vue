@@ -4,7 +4,7 @@
       <WorkSuitCaseSvg />
     </div>
 
-    <div class="text-container">
+    <div class="WorkExperienceHeadline">
       <span>Work Experience</span>
     </div>
 
@@ -26,10 +26,13 @@ defineProps({
 
 <style scoped>
 #workExperienceHeadlineContainer {
+  color: #1a1a1a;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  padding-top: 12px;
+  padding-bottom: 28px;
 
   svg {
     font-size: 24px;
@@ -37,8 +40,8 @@ defineProps({
   }
 }
 
-.text-container {
-  font-size: 32px;
+.WorkExperienceHeadline {
+  font-size: 36px;
   line-height: 36px;
   font-weight: 500;
 }

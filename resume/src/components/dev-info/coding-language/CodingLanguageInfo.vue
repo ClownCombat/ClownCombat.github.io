@@ -1,7 +1,7 @@
 <template>
   <div id="codeLangContainer">
     <span class="langInfo">{{info}}:</span>
-    <div class="expBar" :style="{ width: years * 12 + '%' }">{{years}} years</div>
+    <div class="expBar" :style="{ width: years * 10 + '%' }">{{years}} years</div>
   </div>
 </template>
 
