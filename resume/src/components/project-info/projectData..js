@@ -13,7 +13,7 @@ function createProject({ headline, client, role, sections }) {
 }
 
 export const ecommerceProject = createProject({
-    headline: "Building the US web shop",
+    headline: "Building the US webshop",
     client: "German ECommerce retailer",
     role: "Senior Frontend Engineer",
     sections: [
@@ -126,7 +126,7 @@ export const germanGroceriesWholesaleBusinessProject = createProject({
 })
 
 export const germanInteractiveSearchFrontend = createProject({
-    headline: "Development of an interactive search ui",
+    headline: "Development of an interactive search interface",
     client: "Berlin open data",
     role: "Student Developer",
     sections: [
