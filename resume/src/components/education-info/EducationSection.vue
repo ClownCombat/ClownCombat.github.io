@@ -107,7 +107,7 @@ if (props.educationSection.from === "") {
     line-height: 22px;
     padding-left: 8px;
     padding-top: 0;
-    padding-bottom: 6px;
+    padding-bottom: 2px;
   }
 
   li::before {

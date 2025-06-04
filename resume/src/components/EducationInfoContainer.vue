@@ -22,15 +22,7 @@ defineProps({
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 95%;
-
-  @media (min-device-width: 1024px) {
-    width: 48%;
-  }
-
-  @media (min-device-width: 1025px) {
-    width: 63%;
-  }
+  width: 100%;
 }
 
 </style>

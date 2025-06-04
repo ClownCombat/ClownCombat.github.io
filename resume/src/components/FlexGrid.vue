@@ -1,10 +1,14 @@
 <template>
   <div id="cv">
     <PersonalInfoContainer />
-    <WorkExperienceContainer />
-    <EducationInfoContainer />
-    <ProjectExpInfoContainer />
+
+    <div id="experienceSection">
+      <WorkExperienceContainer />
+      <EducationInfoContainer />
+      <ProjectExpInfoContainer />
+    </div>
   </div>
+
   <div class="footer">
     <div>Find me online</div>
 
@@ -40,13 +44,13 @@ import ProjectExpInfoContainer from "./ProjectExpInfoContainer.vue";
   display: flex;
   flex-direction: column;
   gap: 1em;
-  justify-content: center;
   padding-top: 10px;
   margin: auto;
   width: 100%;
 
-  @media (min-device-width: 600px) and (max-device-width: 1024px) {
+  @media (min-device-width: 800px) and (max-device-width: 1024px) {
     align-items: flex-start;
+    justify-content: space-around;
     flex-direction: row;
     gap: 1em;
   }
@@ -56,6 +60,19 @@ import ProjectExpInfoContainer from "./ProjectExpInfoContainer.vue";
     flex-direction: row;
     max-width: 1440px;
     gap: 1em;
+  }
+}
+
+#experienceSection {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+
+  @media (min-device-width: 801px) {
+    align-items: stretch;
+    margin-right: 12px;
   }
 }
 

@@ -147,7 +147,7 @@ const moreButtonDescription = computed(() => projectDetailsShown.value ? '- Hide
     font-size: 16px;
     padding-left: 8px;
     padding-top: 0;
-    padding-bottom: 6px;
+    padding-bottom: 2px;
 
   }
 
