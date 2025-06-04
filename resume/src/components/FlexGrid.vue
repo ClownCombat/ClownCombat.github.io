@@ -62,7 +62,7 @@ import ProjectExpInfoContainer from "./ProjectExpInfoContainer.vue";
 .footer {
   background-color: #3f51b5;
   color: #fff;
-  margin-top: 1em;
+  margin-top: 1.5em;
   text-align: center;
   padding-bottom: 12px;
   width: 100%;

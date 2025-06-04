@@ -111,12 +111,14 @@ if (props.educationSection.from === "") {
   }
 
   li::before {
+    align-self: flex-start;
     content: "•";
     color: #3f51b5;
     display: inline-block;
     font-weight: bold;
     font-size: 1.5em;
-    width: 16px;
+    min-width: 16px;
+    line-height: 24px;
   }
 }
 
