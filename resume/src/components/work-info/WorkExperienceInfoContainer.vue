@@ -19,18 +19,21 @@ const currentEmployerSectionOne = {
   headline: "Current Daily Business:",
   items:
       [
-        "Work as a fullstack engineer for a web app",
-        "Part of an agile Team",
-        "Full lifecycle responsibility - from conception to deployment"
+        "Developed and maintained full-stack web applications",
+        "Part of an agile team",
+        "Feature Development from concept to deployment",
+        "Contributed to architecture and code reviews to maintain high code quality",
+        "Improved Core Web-Vitals and INP by 20%",
       ],
 }
 
 const currentEmployerSectionTwo = {
   headline: "Technologies",
   items: [
-      "Spring Boot Backend with Kotlin (Webflux, Kafka)",
-      "SSR Frontend with NextJs and Typescript",
+      "Backend: Kotlin (Spring Boot, Webflux, Kafka, MongoDB, PostgreSQL)",
+      "Frontend: Nextjs (SSR), TypeScript",
       "Cloud Deployment via AWS-CDK with TypeScript",
+      "Continuous zero-down-time deployment (multiple times per day)",
   ],
 }
 
@@ -44,11 +47,11 @@ const currentEmployerWorkSection = ref({
 const divaESectionOne = {
   headline: "Tasks:",
   items: [
-      "Worked as an onsite-consultant for multiple customer project",
+      "Served as an onsite-consultant for diverse client projects",
       "Analyzed functional and technical requirements",
-      "Worked as Fullstack-Developer in agile Teams",
-      "Led the Newcomers and Interns clean code developer training",
-      "Worked with multiple CMS Systems",
+      "Most common utilized role: Fullstack engineer",
+      "Mentored junior developers and led clean code trainings",
+      "Developed multiple CMS-based applications and custom spring-boot applications",
       "Worked with different Frontend Technologies (VueJs, ReactJS, AngularJs)",
   ],
 }

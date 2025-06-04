@@ -10,7 +10,7 @@
   </div>
 
   <div class="footer">
-    <div>Find me online</div>
+    <div class="signature">Find me online</div>
 
     <a class="footerLink" href="https://de.linkedin.com/in/norman-rehbein-028a3a165" target="_blank">
       <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin Oiy7" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" color="#FFFFFF">
@@ -25,8 +25,6 @@
     </a>
 
     <div class="signature">By Norman Rehbein</div>
-
-
   </div>
 </template>
 
