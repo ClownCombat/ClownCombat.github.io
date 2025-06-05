@@ -10,8 +10,8 @@
     <SkillsInfo icon="branching" info="Versioning" :skills="['Git']" />
 
     <SkillsInfo icon="listCheck" info="Project Management" :skills="['Jira', 'Confluence']" />
-    <SkillsInfo icon="cloud" info="Virtualization" :skills="['Aws-CDK', 'Kubernetes']" />
-    <SkillsInfo icon="cloudUpload" info="Orchestration" :skills="['Alpha', 'Beta']" />
+    <SkillsInfo icon="cloud" info="Virtualization" :skills="['Docker', 'Vagrant']" />
+    <SkillsInfo icon="cloudUpload" info="Orchestration" :skills="['Cloudformation', 'Kubernetes']" />
 
     <SkillsInfo icon="forwardArrow" info="Knowledge Transfer" :skills="['Confluence']" />
     <SkillsInfo icon="document" info="CMS" :skills="['Bloomreach', 'AEM']" />

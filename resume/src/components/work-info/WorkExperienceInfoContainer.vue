@@ -24,6 +24,7 @@ const currentEmployerSectionOne = {
         "Feature Development from concept to deployment",
         "Contributed to architecture and code reviews to maintain high code quality",
         "Improved Core Web-Vitals and INP by 20%",
+        "Active OnCall-Member to ensure the stability of the service 24/7",
       ],
 }
 
