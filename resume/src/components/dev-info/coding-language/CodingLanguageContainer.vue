@@ -1,9 +1,9 @@
 <template>
   <div id="devInfoContainer">
     <CodingLanguagesHeadline />
-    <CodingLanguageInfo info="Java / Kotlin" years=9 />
-    <CodingLanguageInfo info="JavaScript / TypeScript" years=9 />
-    <CodingLanguageInfo info="Bash" years=7 />
+    <CodingLanguageInfo info="Java / Kotlin" years=10 />
+    <CodingLanguageInfo info="JavaScript / TypeScript" years=10 />
+    <CodingLanguageInfo info="Bash" years=8 />
   </div>
 </template>
 
